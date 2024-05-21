@@ -21,7 +21,7 @@ disp(f)
 B = perms(f);%modelling permutation
 disp(B)
 
-rows = size(B,1); %rows is the number of permutated states
+rows = size(B,1); %rows is the number of permuted states
 cols = size(B,2);
 
 RmMAX = zeros(1,rows);
