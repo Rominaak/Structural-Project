@@ -9,7 +9,7 @@ n1 = 2*n; % Dimension of the Matrix is 2 times the number of beams
 
 X = sym(zeros(n1,n1)); % (sym) makes the matrix X compatible to hold parameters such as ks and a in it
 
-alpha = input('insert alpha ((n-1)th beam is (alpa) times (n)th beam) >> ');
+alpha = input('insert alpha ((n-1)th beam is (alpha) times (n)th beam) >> ');
 f = zeros(1,n);
 
 j = 1;
