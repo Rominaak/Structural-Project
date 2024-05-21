@@ -9,7 +9,7 @@ n1 = 2*n; % Dimension of the Matrix is 2 times the number of beams
 
 X = sym(zeros(n1,n1)); % (sym) makes the matrix X compatible to hold parameters such as ks and a in it
 
-alpha = input('insert alpha ((n)th beam stiffness is (alpha) times (n-1)th beam stiffness) >> ');
+alpha = input('insert alpha ((n-1)th beam stiffness is (alpha) times (n)th beam stiffness) >> ');
 f = zeros(1,n);
 
 j = 1;
