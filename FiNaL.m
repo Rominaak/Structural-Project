@@ -43,7 +43,7 @@ for q = 1:rows
  for jj = 1:2:2*n-1 
      if jj ==1
         X(jj,jj) = 1;
-        X(jj,jj+1) = -B(q,((jj+1)/2))*a*ks;   
+        X(jj,jj+1) = -B(q,(jj+1)/2)*a*ks;   
      else
         X(jj,jj-1) = B(q,(jj+1)/2)*a*ks;
         X(jj,jj) = 1;
